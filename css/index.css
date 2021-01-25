@@ -1,0 +1,49 @@
+ul {
+  list-style: none;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+ul li {
+  margin-left: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+label {
+  display: flex;
+}
+
+input {
+  width: 10rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  width: 4rem;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+}
+
+.celcius-wrapper {
+  padding-top: 1rem;
+}
+
+.result-wrapper {
+  padding-bottom: 1rem;
+}
+

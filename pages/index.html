@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produk</title>
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <a href="/pages/index.html">
+        <li>Product</li>
+      </a>
+      <a href="/pages/suhu.html">
+        <li>Suhu</li>
+      </a>
+      <a href="/pages/umurkucing.html">
+        <li>Umur Converter</li>
+      </a>
+      <a href="/pages/converter.html">
+        <li>Text Converter</li>
+      </a>
+    </ul>
+  </nav>
+  <div class="wrapper">
+    <div class="container">
+      <h1>Produk</h1>
+      <div>
+        <label for="">
+          Nama
+        </label>
+        <input type="text" id="nama">
+      </div>
+      <div>
+        <label for="">
+          Produk
+        </label>
+        <input type="text" id="produk">
+      </div>
+      <button onClick="beliProduk(nama.value, produk.value)">
+        Submit
+      </button>
+  </div>
+  <script src="/js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <a href="/pages/index.html">
+        <li>Product</li>
+      </a>
+      <a href="/pages/suhu.html">
+        <li>Suhu</li>
+      </a>
+      <a href="/pages/umurkucing.html">
+        <li>Umur Converter</li>
+      </a>
+      <a href="/pages/converter.html">
+        <li>Text Converter</li>
+      </a>
+    </ul>
+  </nav>
+  <div class="container">
+    <h1>Perbandingan Umur Kucing dan Manusia</h1>
+    <div>
+      <label for="">
+        Umur Kucing
+      </label>
+      <input type="number" id="umur"/>
+      <div>
+        <span>Umur manusia </span>
+        <span id="manusia"></span>
+      </div>
+      <button onClick="umurManusia(umur.value)">
+        Submit
+      </button>
+    </div>
+  </div>
+  <script src="/js/umurkucing.js"></script>
+</body>
+</html>
